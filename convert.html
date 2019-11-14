@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        async function doit(){
+            let resp = await fetch("/js/apidata.json")
+            let asdf = await resp.json() 
+            let newData = asdf.data.map(obj => ({
+                name: obj.name,
+                imageURL: obj.image_uris ? obj.image_uris.border_crop : ""
+            }))
+            newData = newData.filter(d => d.imageURL)
+            
+            console.log(JSON.stringify(newData.slice(0,40)))
+
+        }
+        doit()
+    </script>
+</body>
+</html>

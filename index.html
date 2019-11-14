@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Magic Card Search Site">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Magic Card Finder - Final JS Project</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="page2" href="/deck-guides.html">
+
+</head>
+<!-- HEADER CONTENT-->
+<header>
+    <img class="title-img" src="/img/Title@1280x222.jpg" alt="">
+    <nav>
+        <ul>
+            <li class="input-field">
+                <input type="text" id="inputCardName" list="cardNames" placeholder="Search your card">
+                <datalist id="cardNames"></datalist>
+            </li>
+            <li>
+                <a href="/deck-guides.html">Deck Guides</a>
+            </li>
+            <li>Card Prices</li>
+            <li>Events</li>
+        </ul>
+    </nav>
+</header>
+<body>
+    <!-- MAIN CONTENT -->
+    <div class="wrapper">
+        <article class="card-names">
+            <h1 class="card-list">Choose a Card</h1>
+            <ul class="results">
+                <li class ="prototype"></li>
+            </ul>
+        </article>
+        
+        <article class = "card-pic sticky">
+            <article class = "sticky">
+                <h1 class="card-display">Card Illustration</h1>
+                <img id="cardimg" src="" alt=""></img>
+            </article>
+        </article>
+    </div>
+    <!-- FOOTER CONTENT -->
+    <footer>    
+        
+    </footer>
+    <script src="/js/main.js"></script>
+</body>
+</html>

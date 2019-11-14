@@ -1,0 +1,134 @@
+body {
+    display: flex;
+    background-color: black;
+    align-content: center;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+}
+
+nav {
+    background-color: rgb(97, 120, 255);
+    display: flex;
+    flex-direction: column;
+}
+
+.title-img {
+    display: flex;
+}
+
+.input-field {
+    display: flex;
+    list-style-type: none;
+    align-self: center;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 1440px;
+    height: 1440px;
+    background-image: url("/img/MagicWallPaper@1024x1024.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+li {
+    display: flex;
+    flex-direction: column;
+    color: azure;
+    font-weight: bold;
+    font-size: 1.2rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.results {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.results > li {
+    margin-top: .5rem;
+    font-size: 1.5rem;
+    color: burlywood;
+}
+
+li:hover {
+    cursor: pointer;
+    color: rgb(251, 106, 48);
+}
+
+.sticky {
+    position: sticky;
+    top: 8px;
+    width: auto;
+    align-self: auto;
+    height: auto;
+}
+
+.card-list {
+    color: rgb(189, 189, 189);
+    font-size: 2em;
+    padding: 1rem 0 0 2rem;
+    margin-bottom: 3rem;
+    /* position: sticky; */
+    top: 8px;
+    width: auto;
+    align-self: auto;
+    height: auto;
+}
+
+.card-display {
+    color: rgb(189, 189, 189);
+    font-size: 2em;
+    padding: 1rem 0 0 2rem;
+    margin-bottom: 3rem;
+    position: sticky;
+    top: 8px;
+    width: auto;
+    align-self: auto;
+    height: auto;
+}
+
+footer {
+    background-image: url(/img/MagicFooter@1280x222.jpg);
+    margin: auto;
+    height: 222px;
+    width: 1280px;
+    z-index: -1;
+}
+
+.wrapper2 {
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+    width: 1280px;
+    height: 1440px;
+    background-image: url("/img/MagicWallPaper@1024x1024.jpg");
+    margin: 0 auto;
+    background-position: center;
+    background-size: cover;
+}
+
+.page2-content {
+    display: flex;
+    color: burlywood;
+    justify-content: space-between;
+}
+
+.page2-content div {
+    margin: 0 auto;
+}
