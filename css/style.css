@@ -84,7 +84,6 @@ li:hover {
     font-size: 2em;
     padding: 1rem 0 0 2rem;
     margin-bottom: 3rem;
-    /* position: sticky; */
     top: 8px;
     width: auto;
     align-self: auto;
@@ -112,9 +111,6 @@ footer {
 }
 
 .wrapper2 {
-    /* display: flex;
-    flex-direction: column;
-    align-items: center; */
     width: 1280px;
     height: 1440px;
     background-image: url("/img/MagicWallPaper@1024x1024.jpg");
