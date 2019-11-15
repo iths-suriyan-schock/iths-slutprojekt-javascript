@@ -16,6 +16,3 @@
 * Visar ett sökningsbart fält där användaren anger en input som består av text. När Enter-knappen trycks, ska listan på alla korten som matchar visas som en lista, där de även är klick-bara för att få fram bilden av det valda kortet.
 
 * Den första länken i navigeringsbaren ska öppna upp en annan sida som har information om hjälpsamma sätt att bygga egna lekar.
-	
-
-## Libraries
