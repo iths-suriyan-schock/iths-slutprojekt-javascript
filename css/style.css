@@ -54,6 +54,11 @@ li {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+li > a {
+    text-decoration: none;
+    color: azure;
+}
+
 .results {
     display: flex;
     flex-direction: column;
@@ -68,7 +73,7 @@ li {
 
 li:hover {
     cursor: pointer;
-    color: rgb(251, 106, 48);
+    color: rgb(255, 131, 82);
 }
 
 .sticky {
@@ -109,6 +114,8 @@ footer {
     width: 1280px;
     z-index: -1;
 }
+
+/* --- PAGE 2 - deck-guides --- */
 
 .wrapper2 {
     width: 1280px;
