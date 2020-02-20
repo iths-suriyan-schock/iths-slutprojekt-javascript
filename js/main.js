@@ -1,6 +1,6 @@
 let inputField = document.querySelector("#inputCardName");
 
-inputField.addEventListener("key"+"up", async function(event){
+inputField.addEventListener("key"+"up", async function(event){ // or use the arrow function: (event) => 
     if(event.key == "Enter") {
         
         let url = `https://api.scryfall.com/cards/search?q=${inputField.value.replace(" ", "+")}&unique=cards`
